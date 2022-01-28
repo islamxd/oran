@@ -1,9 +1,13 @@
 <template>
 <link href='https://css.gg/pin.css' rel='stylesheet'>
     <div class="all">
+        
         <i  class="gg-pin" :class="current" ></i>
+        <div class="imgcnt">
         <img src="./assets/map.png">
-    <div class="sidebar">
+        </div>
+    <div class="sidebar" :class="{dark:darkMode}">
+
         <div class="button-container">
         <button @click="this.setpos('oran')"> وهران</button>
         <button @click="this.setpos('jir')"> بير الجير</button>
@@ -41,18 +45,32 @@ img{
     width: 700px;
     height: 600px;
 }
+
+
 .all{
+    
+    
     display: flex;
-   background-color: black;
+
     height: 100vh;
 }
 .sidebar{
-    width: 200px;
-    height: 100vh;
+ width: 200px;
+    height: 79vh;
     right: 0;
-    background-color: aqua;
+    background-color: white;
+    color: rgba(18, 14, 41, 0.938);
+    overflow-y: scroll;
     position: absolute;
+    margin-top: 35px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    transition: 0.4s;
     
+}
+.dark{
+        background-color: rgba(18, 14, 41, 0.938);
+    color: white;
 }
 .gg-pin {
     box-sizing: border-box;
@@ -201,15 +219,14 @@ button{
     border: none;
     background: none;
     font-size: 20px;
-    right: 2px;
     text-align: right;
+    padding-right: 22px;
     width: 100%;
     cursor: pointer;
+    color: inherit;
     
 }
-.button:hover {
-  background: #06D85F;
-}
+
 
 </style>
 
@@ -219,6 +236,7 @@ import {mapState} from 'vuex'
 export default {
 computed:{
     ...mapState({
+        darkMode:state=>state.darkMode,
         current:state=>state.current
     }),
     data() {

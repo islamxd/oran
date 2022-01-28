@@ -61,6 +61,7 @@ export default {
     height: 200px;
     aspect-ratio: 16/9;
     border-radius:10px ;
+    image-rendering: optimizeSpeed;
 }
 .info-container{
     flex: 1;

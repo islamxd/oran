@@ -4,12 +4,13 @@
 <pane  v-show="Panel"/>
 <auth v-show="login"/>
 <Loader v-show="false"/>
+<oran v-if="mapon"/>
 </template>
-
 <script>
 import Loader from './components/Loader.vue'
 import auth from './components/auth.vue'
 import Navbar from './components/navbar.vue'
+import oran from './components/map.vue'
 import Home from './home.vue'
 import pane from './components/pane.vue'
 import {mapState} from 'vuex'
@@ -20,14 +21,16 @@ export default {
     Navbar,
     pane,
     Loader,
-    auth
+    auth,
+    oran
   },
   computed:{
     ...mapState({
         loading: state=> state.loading,
         home: state => state.home,
         Panel:state=>state.Panel,
-        login: state => state.login
+        login: state => state.login,
+        mapon: state=> state.mapon
     })
   }
 }
@@ -74,8 +77,6 @@ font-smooth: always;
         background: rgba(246, 246, 255, 0.96);
         border-radius: 10px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(14.2px);
-        -webkit-backdrop-filter: blur(14.2px);
         border: 1px solid rgba(178, 179, 233, 0.43);
         color: #2c3e50;
         transition: .4s ease-in-out;
@@ -96,8 +97,6 @@ button{
         background: rgba(12, 13, 31, 0.92);
         border-radius: 10px;
         box-shadow: 0 4px 30px rgba(160, 160, 160, 0.1);
-        backdrop-filter: blur(14.2px);
-        -webkit-backdrop-filter: blur(14.2px);
         border: 1px solid rgba(4, 6, 95, 0.43);
         color : white;
 }

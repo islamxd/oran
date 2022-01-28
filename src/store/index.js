@@ -12,7 +12,10 @@ export default new Vuex.Store({
         Services:'Hotel',
         Panel:false,        
         login:false,
-        componentKey:0
+        componentKey:0,
+        mapon: false,
+        current : 'oran'
+        
     },
     getters: {
         loading: state => state.loading
@@ -42,7 +45,16 @@ export default new Vuex.Store({
         },
         SET_LANG(state,status){
           state.lang=status
-        }
+        },
+        SET_MAP(state,status){
+            state.mapon=status
+        },
+        
+  SET_POS(state,status){
+    state.current=status
+    }
+        
+        
     },
     actions: {
 
@@ -56,12 +68,14 @@ export default new Vuex.Store({
         toggleHome(context) {
             context.commit('SET_login',false),
             context.commit('SET_PANEL',false),
-            context.commit('SET_HOME', true)
+            context.commit('SET_HOME', true),
+            context.commit('SET_MAP',false)
         },
         togglePanel(context) {
           context.commit('SET_login',false),
           context.commit('SET_PANEL',true),
-          context.commit('SET_HOME', false)
+          context.commit('SET_HOME', false),
+          context.commit('SET_MAP',false)
         },
         setServices(context,service) {
           context.commit('SET_SERVICES',service)
@@ -69,7 +83,8 @@ export default new Vuex.Store({
         togglelogin(context) {
           context.commit('SET_login',true),
           context.commit('SET_PANEL',false),
-          context.commit('SET_HOME', false)
+          context.commit('SET_HOME', false),
+          context.commit('SET_MAP',false)
         },
 
         toggleDarkMode(context) {
@@ -78,7 +93,16 @@ export default new Vuex.Store({
         },
         switchLang(context){
             context.commit('SET_LANG', !context.state.lang)
-        }
+        },
+        toggleMap(context){
+            context.commit('SET_MAP',true),
+            context.commit('SET_login',false),
+            context.commit('SET_PANEL',false),
+            context.commit('SET_HOME', false)
+        },
+        togglehome(context,pos) {
+            context.commit('SET_POS',pos)
+          }
 
     },
     modules: {}

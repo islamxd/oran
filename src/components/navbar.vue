@@ -1,5 +1,6 @@
 <template>
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
     <transition name="scale">
         <div class="navbar panel" :class="{dark:darkMode}">
         <div class="flexible"> 
@@ -18,15 +19,15 @@
         </div>
         <div class="flexible controls">
             <div class="flexible" >
-            <button  @click=" this.switchLang()" :class="{dark:darkMode}" >
-                    <img src="@/assets/en.png"  class="dark-icon" :class="{hide:lang}" >
-                    <img src="@/assets/ar.png"  class="light-icon" :class="{hide:!lang}"  >
+            <button  @click=" this.switchLang()" :class="{dark:darkMode}" > 
+                    <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.5/flags/1x1/us.svg"  class="dark-icon" :class="{hide:lang}" >
+                    <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.5/flags/1x1/dz.svg"  class="light-icon" :class="{hide:!lang}"  >
             </button>
             </div>
             <div class="flexible" >
             <button  @click=" this.toggleDarkMode()" :class="{dark:darkMode}" >
-                    <img src="@/assets/dark-logo.svg" alt="" class="dark-icon" :class="{hide:darkMode}" >
-                    <img src="@/assets/light-logo.svg" alt="" class="light-icon" :class="{hide:!darkMode}"  >
+                    <img src="https://img.icons8.com/external-dreamstale-green-shadow-dreamstale/64/000000/external-moon-education-and-research-dreamstale-green-shadow-dreamstale.png" alt="" class="dark-icon" :class="{hide:darkMode}" >
+                    <img src="https://img.icons8.com/doodle/48/000000/sun--v1.png" alt="" class="light-icon" :class="{hide:!darkMode}"  >
             </button>
             </div>
             
@@ -54,7 +55,8 @@ export default {
                             { title: "Restaurants  and cafterias ", icon:"fa fa-utensils", active:false, click:this.toggleRestaurent},
                             { title: "Entertainments ", active:false, icon:"fa fa-snowboarding", click:this.toggleEntertain},
                             { title: "Historical  places ", active:false, icon:"fa fa-place-of-worship", click:this.togglePlaces},
-                            { title: " ", active:false, icon:"fa fa-user-circle", click:this.toggleForm}
+                            { title: "map ", active:false, icon:"fas fa-map-marker-alt", click:this.togglMap},
+                            { title: " login", active:false, icon:"fa fa-user-circle", click:this.toggleForm}
                         ]
                      }
         },
@@ -70,6 +72,9 @@ export default {
         none() {},
         toggleHome(){
             this.$store.dispatch('toggleHome')
+        },
+        togglMap(){
+             this.$store.dispatch('toggleMap')
         },
         toggleRestaurent(){
             this.$store.dispatch('togglePanel'),
