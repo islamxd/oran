@@ -1,0 +1,25 @@
+
+[
+    {"title": "Four Points by Sheraton oran" , "id" : "01" , "img" : " https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/df/09/57/exterior.jpg?w=900&h=-1&s=1.jpg"},
+
+    {"title": "Calypso Home Oran" , "id" : "02" , "img" : "https://cf.bstatic.com/xdata/images/hotel/max1024x768/146463175.jpg?k=e3a20ac69f58873e424739075108ba4c7dc94144dafa92dcb7f0d8af24f2255f&o=&hp=1.jpg"},
+
+
+    {"title": "ibis Oran les Falaises" , "id" : "03" , "img" : " https://cf.bstatic.com/xdata/images/hotel/max1280x900/258904383.jpg?k=71ede780f7611b75c0c3774be7f7a1a088c52b6393f94aba096d2f51b4b3e17a&o=&hp=1.jpg"},
+
+
+    {"title": "Royal Hotel Oran – Mgallery Hotel collection" , "id" : "04" , "img" : " https://cf.bstatic.com/xdata/images/hotel/max1024x768/302439470.jpg?k=b21ebcd31b6256c3510850fb7177728b1328f97ea2358c382e9920dcd9fae336&o=&hp=1.jpg"},
+
+
+    {"title": "MH Hotel" , "id" : "05" , "img" : " https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_650,q_auto,w_1000/itemimages/23/79/2379295_v1.jpeg"},
+
+
+    {"title": "Paradis résidence" , "id" : "06" , "img" : "https://q-xx.bstatic.com/xdata/images/hotel/840x460/231861493.jpg?k=6f31b1072f81b1c7a17ffa73a0423bd9d63c8b188587528fad0319ad2884fd21&o=.jpg"},
+
+
+    {"title": "Le Panorama d’Oran" , "id" : "07" , "img" : " https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/297992849.jpg?k=d711d2e18a6fdcb575ffc499f869e9328d5fc5afab6cbdf1d36207a0751a3738&o=.jpg"},
+
+
+
+    {"title": "AZ hotel Grand Oran" , "id" : "08" , "img" : " https://cf.bstatic.com/xdata/images/hotel/max1024x768/326878008.jpg?k=faca4b7699f250833656a9c3988826c845176a8f9b91247e9c5afd0635def1c8&o=&hp=1.jpg"}
+]

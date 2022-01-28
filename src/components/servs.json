@@ -1,0 +1,202 @@
+[
+    {
+      "id": 1,
+      "serviceName": "Four Points by Sheraton",
+      "category": "Hotel",
+      "adress": "Bd du 19 Mars, Oran 31000",
+      "view": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/df/09/57/exterior.jpg?w=900&h=-1&s=1.jpg",
+      "about": "Step into Mediterranean luxury at our Oran, Algeria hotel"
+    },
+    {
+      "id": 2,
+      "serviceName": "Calypso Home",
+      "category": "Hotel",
+      "adress": "N°6 place 20 aout Restaurant la Calypso Ain el turc oran oran DZ، 31300",
+      "view": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/146463175.jpg?k=e3a20ac69f58873e424739075108ba4c7dc94144dafa92dcb7f0d8af24f2255f&o=&hp=1.jpg",
+      "about": "le Calypso Home Oran propose des hébergements avec une connexion Wi-Fi gratuite,..."
+    },
+    {
+      "id": 3,
+      "serviceName": "ibis Oran les Falaises",
+      "category": "Hotel",
+      "adress": "Avenue De Canastel, Route Des Falaises, Oran 31000",
+      "view": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/258904383.jpg?k=71ede780f7611b75c0c3774be7f7a1a088c52b6393f94aba096d2f51b4b3e17a&o=&hp=1.jpg",
+      "about": "Straightforward rooms, some with gulf views, in a relaxed budget hotel with a restaurant & a bar."
+    },
+    {
+      "id": 4,
+      "serviceName": "Royal Hotel Oran – Mgallery Hotel collection",
+      "category": "Hotel",
+      "adress": "Royal Hotel Oran – Mgallery Hotel collection",
+      "view": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/302439470.jpg?k=b21ebcd31b6256c3510850fb7177728b1328f97ea2358c382e9920dcd9fae336&o=&hp=1.jpg",
+      "about": "Elegant 1920s-era lodging with polished rooms & breakfast, plus a gourmet restaurant & a sauna."
+    },
+    {
+      "id": 5,
+      "serviceName": "MH HOTEL",
+      "category": "Hotel",
+      "adress": "Oran 31000",
+      "view": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_650,q_auto,w_1000/itemimages/23/79/2379295_v1.jpeg",
+      "about": "Low-key hotel featuring a prayer room, dining space & a lobby lounge, plus parking & breakfast."
+    },
+    {
+      "id": 6,
+      "serviceName": "Fort of Santa Cruz",
+      "category": "Historic milestone",
+      "adress": "المرسى الكبير",
+      "view": "https://www.urtrips.com/wp-content/uploads/2018/02/Fort-Santa-Cruz-Oran-3.jpg",
+      "about": "قلعة سانتا كروز توجد في مدينة وهران والتي بنيت من قبل الإسبان من عام 1577 -1604. وكانت هذه القلعة حصنا يستعمل لمراقبة ميناء وساحل مدينة وهران. تقع هذه القلعة على أعلى قمة من جبل المرجاجو الواسع النطاق. وقد ساعد موقعها الاستراتيجي في الحفاظ على شكلها سليما رغم السنين."
+    },
+    {
+      "id": 7,
+      "serviceName": "المتحف الوطني زبانة",
+      "category": "Historic milestone",
+      "adress": "وهران",
+      "view": "https://aathaar.net/public/storage//avatars/53975.jpg",
+      "about": "متحف في ولاية وهران"
+    },
+    {
+      "id": 8,
+      "serviceName": "مسجد الباشا",
+      "category": "Historic milestone",
+      "adress": "Boutkhil, Oran",
+      "view": "https://www.el-massa.com/dz/media/k2/items/cache/85780536e4b77e76eb18672b72ad025f_L.jpg",
+      "about": "مسجد حسن الباشا هو أحد مساجد وهران شيد عام 1797 في عهد الباي محمد الكبير بأمر من بابا حسن باشا الجزائر العاصمة. أول إمام للمسجد كان الشيخ سيدي محمد الساني المهاجي."
+    },
+    {
+      "id": 9,
+      "serviceName": "Porte d'Espagne",
+      "category": "Historic milestone",
+      "adress": "place des frère Belkhad, Oran",
+      "view": "http://jeanyvesthorrignac.fr/AlbumOran2/Oran%20-%20Periode%20algerienne/Photos%20Youcef%20Elmecherfi/slides/DSCN4143.JPG",
+      "about": "متحف في وهران"
+    },
+    {
+      "id": 10,
+      "serviceName": "قصر الباي",
+      "category": "Historic milestone",
+      "adress": "وهران",
+      "view": "https://www.urtrips.com/wp-content/uploads/2018/01/Palais-du-Bey-Constantine-2.jpg",
+      "about": "قصر الباي هو مقر الحكم ببايلك الغرب إبان الحكم العثماني للجزائر، يقع القصر بسيدي الهواري قرب جبل مرجاجو ويعود تاريخ بنائه إلى نهاية القرن الثامن عشر على يد محمد باي الكبير بن عثمان."
+    },
+    {
+      "id": 11,
+      "serviceName": "Porte De Santon",
+      "category": "Historic milestone",
+      "adress": "وهران",
+      "view": "https://www.dzadvisor.com/storage/listings/4809b823-eb8c-4474-bda9-944f630720c7-600.jpg",
+      "about": "مَعلم تاريخي في وهران"
+    },
+    {
+      "id": 12,
+      "serviceName": "متحف المجاهد",
+      "category": "Historic milestone",
+      "adress": "وهران",
+      "view": "https://i.ytimg.com/vi/g0aqt2t-nTY/maxresdefault.jpg",
+      "about": "مَتحف في وهران"
+    },
+    {
+      "id": 13,
+      "serviceName": "Oran Zoo",
+      "category": "Entertainment",
+      "adress": "Cheikh Abdelkader Avenue, Oran",
+      "view": "https://www.trfihi-parks.com/images/parks/9197-2016-12-28.jpg",
+      "about": "Lions, tigers & elephants in enclosures, plus raptors, farm animal encounters & pony rides"
+    },
+    {
+      "id": 14,
+      "serviceName": "Foret de Canastel",
+      "category": "Entertainment",
+      "adress": "QC7V+H9Q, Oran",
+      "view": "https://media.safarway.com/content/8215e32a-cf3d-42c4-aa30-6c0aac8fc973_sm.jpg",
+      "about": "Forested clifftop park with sweeping views of the skyline & bay, plus trails for hiking & cycling."
+    },
+    {
+      "id": 15,
+      "serviceName": "Seafront Oran",
+      "category": "Entertainment",
+      "adress": "Bd de L'A.L.N, Oran",
+      "view": "https://www.el-massa.com/dz/media/k2/items/cache/478a4ee7cec8775c6712f1f43266eabe_XL.jpg",
+      "about": "Promenade lined with palm trees & restaurants above a busy highway, with views out to the water."
+    },
+    {
+      "id": 16,
+      "serviceName": "Parc d'Attraction",
+      "category": "Entertainment",
+      "adress": "M9M8+C6J, Oran",
+      "view": "https://www.el-massa.com/dz/media/k2/items/cache/177f962ec2d7fd2a691be5e565f306bd_L.jpg",
+      "about": "Parc d'Attractions d'Oran. Amusement & Theme Park"
+    },
+    {
+      "id": 17,
+      "serviceName": "Promenade De Létang",
+      "category": "Entertainment",
+      "adress": "P942+WFF 1 Sidar, Cable MT, Oran 31000",
+      "view": "https://m.dzadvisor.com/storage/listings/bfc5a5e8-bb69-4a21-b9aa-aced971641a7-390x220.jpg",
+      "about": "Open ⋅ Closes 5PM"
+    },
+    {
+      "id": 1,
+      "serviceName": "Le Mexicain",
+      "category": "Restaurant",
+      "adress": "العنوان: 15 rue boulevard des chasseurs، oran 31000",
+      "view": "https://i.ytimg.com/vi/emRQ0o8wmIE/maxresdefault.jpg",
+      "about": "0778 18 34 59"
+    },
+    {
+      "id": 2,
+      "serviceName": "Restaurant PRALIN illusion",
+      "category": "Restaurant",
+      "adress": "54 Av. d'Arcole, Oran",
+      "view": "https://media-cdn.tripadvisor.com/media/photo-s/16/91/96/46/notre-somptueuse-salle.jpg",
+      "about": "0550 24 31 24"
+    },
+    {
+      "id": 3,
+      "serviceName": "La Frégate (Poissons Frais & Paella)",
+      "category": "Restaurant",
+      "adress": "Residence Sofia Leonor, Bir El Djir 31000",
+      "view": "https://m.dzadvisor.com/storage/listings/4023bac2-7199-4771-984c-e754654ea93a-1200.jpg",
+      "about": "مطعم مأكولات بحرية 041 87 71 32"
+    },
+    {
+      "id": 4,
+      "serviceName": "Marmita",
+      "category": "Restaurant",
+      "adress": "Rue Errazi, Oran",
+      "view": "https://www.vitaminedz.com/photos/219/219121-restaurant-branche-el-marmita-d-oran.jpg",
+      "about": "0541 91 72 66"
+    },
+    {
+      "id": 5,
+      "serviceName": "ilyes restaurant",
+      "category": "Restaurant",
+      "adress": "Av. Bessaoud Abdelhamid, Oran",
+      "view": "https://guide-oran.com/wp-content/uploads/2020/01/Ilyes-restaurant-feature-picture-1.png",
+      "about": "مطعم"
+    },
+    {
+      "id": 6,
+      "serviceName": "Barbarossa",
+      "category": "Restaurant",
+      "adress": "Quai 4, Oran",
+      "view": "https://guide-oran.com/wp-content/uploads/2020/01/Barbarossa.jpg",
+      "about": "مطعم"
+    },
+    {
+      "id": 7,
+      "serviceName": "La Grotte Aux Fondues Oran",
+      "category": "Restaurant",
+      "adress": "وهران 31000",
+      "view": "https://www.guide-alger.com/media/k2/items/cache/60089bfd39c4e90e37ccd64af3e7cb70_XL.jpg",
+      "about": "0780 10 10 10"
+    },
+    {
+      "id": 8,
+      "serviceName": "EL BEY RESTAURANT",
+      "category": "Restaurant",
+      "adress": "M9W9+PFW، وهران",
+      "view": "https://guide-oran.com/wp-content/uploads/2021/07/Restaurant-EL-Bey-feature-Picture-.png",
+      "about": "0559 92 60 95"
+    }
+  ]
