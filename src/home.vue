@@ -6,7 +6,9 @@
             <h1>
                 welcom to Discovery App 
             </h1>
-            <div><img src="./assets/logo.png"/></div>
+            <div><img v-if="darkMode" src="./assets/logo.png"/>
+            <img v-if="!darkMode" src="./assets/logodark.png" >
+            </div>
             <h4>welcom to Discovery App welcom to Discovery App </h4>
             <div></div>
         </div>
